@@ -86,9 +86,10 @@ func initConfig() {
 			log.Fatalf("[initConfig homedir] err: %v", err)
 		}
 
-		// Search config in home directory with name ".doctron" (without extension).
-		viper.AddConfigPath(home)
-		viper.SetConfigName(".doctron")
+		// Search config in home directory with name "default" (without extension).
+		viper.AddConfigPath(home + "/go/Example/doctron/conf")
+		viper.SetConfigName("default")
+
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match

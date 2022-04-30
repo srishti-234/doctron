@@ -3,6 +3,7 @@ module github.com/lampnick/doctron
 go 1.13
 
 require (
+	cloud.google.com/go/storage v1.0.0
 	github.com/Jeffail/tunny v0.0.0-20190930221602-f13eb662a36a
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/aliyun/aliyun-oss-go-sdk v2.1.4+incompatible
@@ -10,14 +11,12 @@ require (
 	github.com/chromedp/cdproto v0.0.0-20200116234248-4da64dd111ac
 	github.com/chromedp/chromedp v0.5.3
 	github.com/fasthttp-contrib/websocket v0.0.0-20160511215533-1f3b11f56072 // indirect
-	github.com/go-playground/universal-translator v0.17.0 // indirect
-	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/gorilla/schema v1.2.0
 	github.com/imkira/go-interpol v1.1.0 // indirect
 	github.com/iris-contrib/go.uuid v2.0.0+incompatible
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/kataras/iris/v12 v12.1.8
-	github.com/leodido/go-urn v1.2.0 // indirect
+	github.com/lampnick/doctron-client-go v0.2.0
 	github.com/microcosm-cc/bluemonday v1.0.16 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/moul/http2curl v1.0.0 // indirect
@@ -35,6 +34,6 @@ require (
 	github.com/yudai/pp v2.0.1+incompatible // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
-	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
+	google.golang.org/api v0.13.0
 	gopkg.in/go-playground/validator.v9 v9.31.0
 )
